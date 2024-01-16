@@ -1,7 +1,7 @@
 package com.example.learning.repository
 
-import com.example.learning.entity.CountryEntity
-import org.springframework.data.repository.CrudRepository
+import com.example.learning.model.Country
 
-interface CountryRepository: CrudRepository<CountryEntity,  Int>{
+interface CountryRepository{
+    fun getALL(): List<Country>
 }

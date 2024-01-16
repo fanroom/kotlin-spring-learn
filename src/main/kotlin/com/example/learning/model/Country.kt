@@ -1,6 +1,6 @@
-package com.example.learning.dto
+package com.example.learning.model
 
-data class CountryDto(
+data class Country(
     val id: Int = 0,
     val name: String,
     val population: Int,
